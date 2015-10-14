@@ -4,7 +4,7 @@
 angular.module('ng-fileDrop', []).directive('ngFileDrop', function($log) {
 
     return {
-        restrict: 'A',
+        restrict: 'EA',
         replace: false,
         transclude: false,
         require: ['?ondrop', '?dragoverClass'],
