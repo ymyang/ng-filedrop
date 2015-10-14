@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/ymyang/ng-fileDrop/issues"
   },
-  "homepage": "https://github.com/ymyang/ng-fileDrop#readme"
+  "homepage": "https://github.com/ymyang/ng-fileDrop#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ext-replace": "^0.2.0",
+    "gulp-uglify": "^1.4.2"
+  }
 }
