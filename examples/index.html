@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+    .drop-zone {
+      margin: 30px;
+      width: 400px;
+      height: 300px;
+      border: 1px solid #d3d3d3;
+      text-align: center;
+      line-height: 300px;
+    }
+
+    .dragover {
+      border: 2px dashed red;
+    }
+  </style>
+</head>
+<body ng-app="app">
+<div ng-controller="AppCtrl">
+  <div class="drop-zone" ng-file-drop ondrop="ondrop(files)" dragover-class="dragover">
+    拖放文件到这里
+  </div>
+</div>
+
+<script src="./angular.min.js"></script>
+<script src="../ng-fileDrop.js"></script>
+
+<script>
+
+  window.ondragover = function(e) {
+    e.preventDefault();
+    return false;
+  };
+  window.ondrop = function(e) {
+    e.preventDefault();
+    return false;
+  };
+
+  angular.module('app', ['ng-fileDrop']).controller('AppCtrl', function($scope, $log) {
+
+    $scope.ondrop = function(files) {
+      $log.debug('ondrop:', files);
+    };
+
+  });
+</script>
+</body>
+</html>

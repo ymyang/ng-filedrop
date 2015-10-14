@@ -1,0 +1,25 @@
+{
+  "name": "filedrop",
+  "version": "1.0.0",
+  "description": "file drop directive for angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymyang/ng-fileDrop.git"
+  },
+  "keywords": [
+    "file",
+    "drop",
+    "drag",
+    "angular"
+  ],
+  "author": "ymyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymyang/ng-fileDrop/issues"
+  },
+  "homepage": "https://github.com/ymyang/ng-fileDrop#readme"
+}
