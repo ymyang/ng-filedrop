@@ -1,7 +1,7 @@
 /**
  * Created by yang on 2015/10/14.
  */
-angular.module('ng-fileDrop', []).directive('ngFileDrop', function($log) {
+angular.module('ng-fileDrop', []).directive('ngFileDrop', function() {
 
     return {
         restrict: 'EA',
