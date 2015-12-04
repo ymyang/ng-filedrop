@@ -1,7 +1,7 @@
 # ng-fileDrop
 file drop directive for angular
 
-# йтсц
+# Х╞∙Г■╗
 
 ```javascript
 
