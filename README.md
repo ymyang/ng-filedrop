@@ -1,7 +1,7 @@
 # ng-fileDrop
 file drop directive for angular
 
-# 试用
+# 使用
 
 ```javascript
 
