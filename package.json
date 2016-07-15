@@ -1,14 +1,14 @@
 {
-  "name": "filedrop",
+  "name": "ng-filedrop",
   "version": "1.0.0",
   "description": "file drop directive for angular",
-  "main": "index.js",
+  "main": "ng-fileDrop.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ymyang/ng-fileDrop.git"
+    "url": "git+https://github.com/ymyang/ng-filedrop.git"
   },
   "keywords": [
     "file",
@@ -19,9 +19,9 @@
   "author": "ymyang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ymyang/ng-fileDrop/issues"
+    "url": "https://github.com/ymyang/ng-filedrop/issues"
   },
-  "homepage": "https://github.com/ymyang/ng-fileDrop#readme",
+  "homepage": "https://github.com/ymyang/ng-filedrop#readme",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-ext-replace": "^0.2.0",
